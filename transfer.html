@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b51a79f38f.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="logo.ico.jpg">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <!-- <a href="index.html"><img src="./logo2.jpg" alt=""></a> -->
+            <div>BANK</div>
+            <div class="nav-links" id="nav-links">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Account.html">ACCOUNT</a></li>
+                    <li><a href="transfer.html">TRANSFER</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Step by step procedure</h1>
+    </section>
+    <!-- Tranfer page -->
+    <section class="transfer-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="-payment-online 3.png" alt="">
+                <h2>Step by step procedure</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium laboriosam quod molestias modi inventore, ut aliquid dolores. Consectetur iste sit.</p>
+                <br>  
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium laboriosam quod molestias modi inventore, utaliquid dolores. Consectetur iste sit corrupti! Fugit deleniti sapiente quasi quaerat cumque ad tempore maxime facilis assumenda laborum porro alias, earum dignissimos accusamus inventore omnis?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ratione dolore iste fugiat doloremque fugit delectus assumenda, enim maxime perferendis aliquid numquam est labore laboriosam voluptatibus omnis quas? Odio impedit, eos dolore maxime est corrupti nesciunt ab quisquam inventore aut.</p>
+                <br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi labore exercitationem assumenda sapiente dolor. Exercitationem error blanditiis dolorem at labore molestias facere, maxime earum voluptate ipsam numquam magni, est praesentium illo? Officiis officia quibusdam eum accusamus, laboriosam tenetur soluta voluptas.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptatibus cumque vitae exercitationem itaque est sequi, ratione amet at non quos fugiat facilis praesentium iste? Incidunt neque amet voluptatem et illo, veritatis adipisci eaque voluptates, dicta aut corporis dolorem veniam!</p>
+
+                <!-- comment-box -->
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form action="" class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea name="" id="" rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+
+
+
+            </div>
+            <div class="blog-right">
+            <h3>Loan categories</h3>
+            <div>
+                <span>Home Loan</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Education Loan</span>
+                <span>38</span>
+            </div>
+            <div>
+                <span>Pension Loan</span>
+                <span>16</span>
+            </div>
+            <div>
+                <span>SME Loan</span>
+                <span>11</span>
+            </div>
+            <div>
+                <span>Agri Loan</span>
+                <span>65</span>
+            </div>
+            <div>
+                <span>Gold Loan</span>
+                <span>87</span>
+            </div>
+        </div>
+    </div>
+    </section>    
+
+    <!-- Footer -->
+    <section class=" footer">
+                <h4>About us</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum impedit <br>facilis tempore atque
+                    labore.
+                    Odio!
+                </p>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <!-- <p>Made by Jyothsna</p> -->
+    </section>
+
+
+    <!-- Javascript for toggle menu -->
+    <script>
+        var navlinks = document.getElementById("nav-links");
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+        function hideMenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

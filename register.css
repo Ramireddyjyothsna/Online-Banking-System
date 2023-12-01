@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.back {
+    font-size: large;
+}
+
+.login {
+    background-color: lightblue;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.main-1 img {
+    height: 300px;
+    margin-left: 60px;
+    margin-top: 200px;
+}
+.form-box {
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(251, 245, 245);
+    padding: 50px 60px 70px;
+    margin-left: 100px;
+}
+
+h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: orangered;
+    padding: 10px;
+    position: relative;
+}
+
+.span {
+    font-size: 14px;
+    color: red;
+    font-style: oblique;
+}
+
+.input-field {
+    margin: 10px;
+    transition: max-height 0.5s;
+    align-items: center;
+
+}
+
+.label {
+    width: 190px;
+}
+
+.option {
+    font-size: 14px;
+    padding: 5px;
+}
+
+input {
+    width: 100%;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+input:hover {
+    border: 1px solid red;
+}
+
+.content {
+    width: 170px;
+    padding-left: 20px;
+}
+
+.input-field img {
+    padding-left: 30px;
+}
+
+/* .btn1,
+.btn2 {
+    margin: 600px;
+    background: red;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+} */
+
+/* .btn1:hover{
+    background: green;
+} */
+.sub {
+    background: red;
+    color: white;
+    margin: 10px;
+    margin-left: 260px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sub:hover {
+    color: white;
+    background: green;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b51a79f38f.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="logo.ico.jpg">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <!-- <a href="index.html"><img src="./logo2.jpg" alt=""></a> -->
+            <div>BANK</div>
+            <div class="nav-links" id="nav-links">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Account.html">ACCOUNT</a></li>
+                    <li><a href="transfer.html">TRANSFER</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About us</h1>
+    </section>
+
+<!-- About us content -->
+<section class="about us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the world's Largest Bank</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo doloribus vel magnam rem quia impedit odit fugit earum, dicta laboriosam soluta sit assumenda omnis, esse iusto corporis veritatis quisquam maxime nulla atque animi ad corrupti? Nulla rerum voluptates eum doloremque.</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="-payment-online 5.png" alt="">
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum impedit <br>facilis tempore atque labore. Odio!
+        </p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        <!-- <p>Made by Jyothsna</p> -->
+    </section>
+    
+    
+    <!-- Javascript for toggle menu -->
+    <script>
+        var navlinks = document.getElementById("nav-links");
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+        function hideMenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+    </body>
+    </html>
